@@ -6,7 +6,7 @@ import os
 # 壓縮用目前先整理程式碼
 # from PIL import Image
 
-url = "https://nhentai.net/g/120950/"
+url = "https://nhentai.net/g/128181/"
 
 headers = {
         'User-Agent':

@@ -3,7 +3,7 @@ import requests
 from lxml import etree
 import os
 
-url = "https://nhentai.net/g/193536/"
+url = "https://nhentai.net/g/189439/"
 
 headers = {
         'User-Agent':

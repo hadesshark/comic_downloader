@@ -3,7 +3,7 @@ import requests
 from lxml import etree
 import os
 
-url = "https://nhentai.net/g/202549/"
+url = "https://nhentai.net/g/201058/"
 
 headers = {
         'User-Agent':
@@ -27,6 +27,8 @@ temp_images_list = page_ready_to_xpath.xpath(__xpath_for_images)
 # print(os.listdir('./download/'))
 # 有抓到圖片 url
 # print(temp_images_list)
+
+print(temp_title[0])
 
 if not temp_title[0] in os.listdir('./download'):
 
